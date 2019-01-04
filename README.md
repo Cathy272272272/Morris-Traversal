@@ -1,0 +1,2 @@
+# Morris-Traversal
+Summary:  Inorder 跟 Preorder的区别就是前者在left.right == root的时候add，后者在left.right == null的时候add，共同点是在left == null的时候都要add Postorder，233333，我居然写出来了......网上找不到的鸭~~~ 跟Inorder和Preorder要完全对称的做(所有左右都相反，先去right child) Add的时机，在right.left == null的时候addFirst(root.val)，要把root.val放在前面，跟上面那个用stack的类似，right == null的时候也addFirst(root.val),其实这样存就是按从root往leaf走的顺序把每一个上题中存进stack的root的val都存进list，因为是addFirst，我们先放右边的值进去，再放左边的，最后就得到postorder
