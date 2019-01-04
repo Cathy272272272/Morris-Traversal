@@ -7,7 +7,7 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+class Inorder {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> list = new LinkedList<>();
         while ( root != null ){
