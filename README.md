@@ -14,6 +14,7 @@ However, both need to add when left == null.
 
 
 
+
 Postorder: Symmetric to Inorder and Preorder and use addFirst instead of add.
 
 The time to addFirst is right.left == null and right == null.
